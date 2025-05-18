@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电子标识生成器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="preview-section">
+            <h2>预览</h2>
+            <div id="electronic-label">
+                <div class="label-title">游戏游艺设备电子标识</div>
+                <div class="label-content">
+                    <div class="label-info">
+                        <div><span class="label-key">设备类别：</span><span id="previewDeviceCategory" class="preview-value">游艺机</span></div>
+                        <div><span class="label-key">设备名称：</span><span id="previewDeviceName" class="preview-value">甜蜜宝贝5</span></div>
+                        <div><span class="label-key">批准文号：</span><span id="previewApprovalNumber" class="preview-value">粤游审〔2016〕A110号</span></div>
+                        <div><span class="label-key">监督电话：</span><span id="previewSupervisionPhone" class="preview-value">12318</span></div>
+                    </div>
+                    <div id="qrCodeContainer">
+                        <!-- QR Code will be generated here -->
+                    </div>
+                </div>
+            </div>
+            <div id="templateSelectorContainer">
+                <label for="manufacturerSelect">选择厂商 (预设):</label>
+                <select id="manufacturerSelect">
+                    <option value="">--请选择厂商--</option>
+                </select>
+
+                <label for="typeSelect">选择类型:</label>
+                <select id="typeSelect" disabled>
+                    <option value="">--请选择类型--</option>
+                </select>
+
+                <label for="deviceSelect">选择设备=:</label>
+                <select id="deviceSelect" disabled>
+                    <option value="">--请选择设备--</option>
+                </select>
+            </div>
+            <div class="action-buttons">
+                <button id="downloadBtn">下载图片</button>
+                <button id="shareBtn">分享图片</button>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>输入信息</h2>
+            <hr class="separator"> <!-- Visual separator -->
+
+            <label for="deviceCategory">设备类别:</label>
+            <input type="text" id="deviceCategory" value="游艺机">
+
+            <label for="deviceName">设备名称:</label>
+            <input type="text" id="deviceName" value="甜蜜宝贝5">
+
+            <label for="approvalNumber">批准文号:</label>
+            <input type="text" id="approvalNumber" value="粤游审〔2016〕A110号">
+
+            <label for="supervisionPhone">监督电话:</label>
+            <input type="text" id="supervisionPhone" value="12318">
+
+            <label for="qrLink">审核公示链接(二维码自动生成):</label>
+            <input type="text" id="qrLink" value="https://example.com">
+
+            <label for="qrErrorCorrection">二维码纠错等级(密集程度):</label>
+            <select id="qrErrorCorrection">
+                <option value="L">Low (L - 约 7%)</option>
+                <option value="M" selected>Medium (M - 约 15%)</option>
+                <option value="Q">Quartile (Q - 约 25%)</option>
+                <option value="H">High (H - 约 30%)</option>
+            </select>
+
+            <label for="fontFamily">选择字体:</label>
+            <select id="fontFamily">
+                <option value="SimSun, Songti SC, NSimSun, FangSong, KaiTi, Microsoft YaHei, sans-serif" selected>宋体 (SimSun)</option>
+                <option value="Microsoft YaHei, Segoe UI, sans-serif">微软雅黑 (Microsoft YaHei)</option>
+                <option value="KaiTi, KaiTi_GB2312, STKaiti, serif">楷体 (KaiTi)</option>
+                <option value="FangSong, FangSong_GB2312, STFangsong, serif">仿宋 (FangSong)</option>
+                <option value="Arial, Helvetica, sans-serif">Arial</option>
+                <option value="Verdana, Geneva, sans-serif">Verdana</option>
+            </select>
+
+            <label for="fontSize">内容字体大小 (px): <span id="fontSizeValue">20px</span></label>
+            <input type="range" id="fontSize" value="20" min="10" max="40" step="1">
+
+            <label for="fontWeight">内容字体粗细: <span id="fontWeightValue">900</span></label>
+            <input type="range" id="fontWeight" value="900" min="100" max="1500" step="100">
+
+            <label for="lineHeight">行间距: <span id="lineHeightValue">1.6</span></label>
+            <input type="range" id="lineHeight" value="1.6" min="1" max="3" step="0.1">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="templates.js"></script>
+    <script src="script.js"></script>
+
+    <div class="more-info-section">
+        <h2>使用说明</h2>
+        <p>审核设备公示查询地址 <a href="https://sh.gegia.cn/user/login.do#/index" target="_blank" rel="noopener noreferrer">点击跳转</a> 或复制链接到浏览器打开进行查询: https://sh.gegia.cn/user/login.do#/index</p>
+
+        <h2>更多项目</h2>
+        <p><a href="https://fluffy-piroshki-301606.netlify.app/" target="_blank" rel="noopener noreferrer">卡头信号传递演示</a></p>
+        <p><a href="https://monumental-bunny-0af760.netlify.app/" target="_blank" rel="noopener noreferrer">数码管模拟器</a></p>
+
+        <h2>联系方式</h2>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <p><a href="https://m-9.cn/32n9eguo3oqr" target="_blank" rel="noopener noreferrer">任师傅硬件项目</a></p>
+                <div id="qrCodeRenshifu" class="qr-code-small-container"></div>
+            </div>
+            <div class="contact-item">
+                <p><a href="http://mp.weixin.qq.com/mp/homepage?__biz=MzIyNDM0NTQxNw==&hid=25&sn=3ebf0f25f49d224e5a3f2c0cc40146d0&scene=18#wechat_redirect" target="_blank" rel="noopener noreferrer">关注行业公众号获取更多信息</a></p>
+                <div id="qrCodeGongzhonghao" class="qr-code-small-container"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
