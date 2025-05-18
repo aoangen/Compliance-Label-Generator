@@ -2,7 +2,7 @@ const deviceTemplates = {
     "广州众联动漫": {
         "推币机": [
             { name: "大魔术师", category: "游艺机", approval: "粤游艺审〔2022〕21号", phone: "12318", qrLink: "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=5191&isChange=false&type=1" },
-            { name: "沙漠狂飙 VR", category: "VR游艺机", approval: "粤华审〔2023〕V005号", phone: "400-000-1111", qrLink: "http://hualitech.com/smkb-vr" }
+            { name: "百变小丑", category: "游艺机", approval: "粤华审〔2023〕V005号", phone: "12318", qrLink: "http://hualitech.com/smkb-vr" }
         ],
         "音乐节奏": [
             { name: "舞力全开 2024", category: "游艺机(音乐)", approval: "粤华审〔2023〕M010号", phone: "400-000-1111", qrLink: "http://hualitech.com/dance2024" }
