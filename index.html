@@ -7,20 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="preview-section">
+    <div class="container">        <div class="preview-section">
             <h2>预览</h2>
-            <div id="electronic-label">
-                <div class="label-title">游戏游艺设备电子标识</div>
-                <div class="label-content">
-                    <div class="label-info">
-                        <div><span class="label-key">设备类别：</span><span id="previewDeviceCategory" class="preview-value">游艺机</span></div>
-                        <div><span class="label-key">设备名称：</span><span id="previewDeviceName" class="preview-value">甜蜜宝贝5</span></div>
-                        <div><span class="label-key">批准文号：</span><span id="previewApprovalNumber" class="preview-value">粤游审〔2016〕A110号</span></div>
-                        <div><span class="label-key">监督电话：</span><span id="previewSupervisionPhone" class="preview-value">12318</span></div>
-                    </div>
-                    <div id="qrCodeContainer">
-                        <!-- QR Code will be generated here -->
+            <div class="label-container">
+                <div id="electronic-label">
+                    <div class="label-title">游戏游艺设备电子标识</div>
+                    <div class="label-content">
+                        <div class="label-info">
+                            <div><span class="label-key">设备类别：</span><span id="previewDeviceCategory" class="preview-value">游艺机</span></div>
+                            <div><span class="label-key">设备名称：</span><span id="previewDeviceName" class="preview-value">甜蜜宝贝5</span></div>
+                            <div><span class="label-key">批准文号：</span><span id="previewApprovalNumber" class="preview-value">粤游审〔2016〕A110号</span></div>
+                            <div><span class="label-key">监督电话：</span><span id="previewSupervisionPhone" class="preview-value">12318</span></div>
+                        </div>
+                        <div id="qrCodeContainer">
+                            <!-- QR Code will be generated here -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,7 +36,7 @@
                     <option value="">--请选择类型--</option>
                 </select>
 
-                <label for="deviceSelect">选择设备=:</label>
+                <label for="deviceSelect">选择设备:</label>
                 <select id="deviceSelect" disabled>
                     <option value="">--请选择设备--</option>
                 </select>

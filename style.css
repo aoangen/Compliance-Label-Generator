@@ -18,6 +18,7 @@ body {
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box; /* Added for consistent width calculation */
+    overflow-x: hidden; /* 防止横向溢出 */
 }
 
 .form-section, .preview-section {
@@ -27,17 +28,20 @@ body {
 .preview-section {
     display: flex;
     flex-direction: column; /* Ensure items stack vertically */
+    align-items: stretch; /* 恢复原来的对齐方式，不居中 */
 }
 
 #templateSelectorContainer {
     margin-top: 20px; /* Add space above template selectors */
     margin-bottom: 15px; /* Added margin below template selector */
+    width: 100%; /* 确保宽度占满父容器 */
 }
 
 .action-buttons {
     display: flex;
     gap: 10px; /* Space between buttons */
     margin-top: 10px; /* Space above buttons */
+    width: 100%; /* 确保宽度占满父容器 */
 }
 
 .action-buttons button {
@@ -136,13 +140,21 @@ button:hover {
 }
 
 /* --- Electronic Label Styles --- */
+.label-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    width: 100%;
+}
+
 #electronic-label {
     width: 600px;
+    min-width: 600px; /* 防止宽度缩小 */
     border: 2px solid black;
     padding: 20px;
     background-color: white;
     box-sizing: border-box;
-    margin: 20px auto;
+    margin: 20px 0;
     font-family: inherit;
 }
 
@@ -163,6 +175,7 @@ button:hover {
 .label-info {
     flex-grow: 1;
     line-height: 1.8;
+    white-space: nowrap; /* 防止文本自动换行 */
 }
 
 .label-info div {
@@ -194,10 +207,15 @@ button:hover {
     }
     .preview-section {
         order: -1; /* Ensure preview section is on top */
-        overflow-x: auto; /* Allow horizontal scrolling for the preview section */
+        width: 100%; /* 确保预览部分占满容器宽度 */
+    }
+    .label-container {
+        overflow-x: auto; /* 只在标签容器中启用横向滚动 */
     }
     #electronic-label {
         width: 600px; /* Fixed width for mobile to match PC */
+        min-width: 600px; /* 确保最小宽度一致 */
+        transform: scale(1); /* 保持完整比例 */
     }
     #templateSelectorContainer {
         order: 0; /* Ensure template selector is below the preview image but above form */
