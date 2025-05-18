@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
+<head>    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>电子标识生成器</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.fixed.css">
+    <link rel="stylesheet" href="mobile-fixes.css">
+    <link rel="stylesheet" href="no-scroll-fixes.css">
 </head>
 <body>
     <div class="container">        <div class="preview-section">
-            <h2>预览</h2>
-            <div class="label-container">
-                <div id="electronic-label">
-                    <div class="label-title">游戏游艺设备电子标识</div>
-                    <div class="label-content">
-                        <div class="label-info">
-                            <div><span class="label-key">设备类别：</span><span id="previewDeviceCategory" class="preview-value">游艺机</span></div>
-                            <div><span class="label-key">设备名称：</span><span id="previewDeviceName" class="preview-value">甜蜜宝贝5</span></div>
-                            <div><span class="label-key">批准文号：</span><span id="previewApprovalNumber" class="preview-value">粤游审〔2016〕A110号</span></div>
-                            <div><span class="label-key">监督电话：</span><span id="previewSupervisionPhone" class="preview-value">12318</span></div>
-                        </div>
-                        <div id="qrCodeContainer">
-                            <!-- QR Code will be generated here -->
+            <h2>预览</h2>            <div class="label-wrapper">
+                <div class="label-container">
+                    <div id="electronic-label">
+                        <div class="label-title">游戏游艺设备电子标识</div>
+                        <div class="label-content">
+                            <div class="label-info">
+                                <div><span class="label-key">设备类别：</span><span id="previewDeviceCategory" class="preview-value">游艺机</span></div>
+                                <div><span class="label-key">设备名称：</span><span id="previewDeviceName" class="preview-value">甜蜜宝贝5</span></div>
+                                <div><span class="label-key">批准文号：</span><span id="previewApprovalNumber" class="preview-value">粤游审〔2016〕A110号</span></div>
+                                <div><span class="label-key">监督电话：</span><span id="previewSupervisionPhone" class="preview-value">12318</span></div>
+                            </div>
+                            <div id="qrCodeContainer">
+                                <!-- QR Code will be generated here -->
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- 移除了缩放比例提示 -->
             </div>
             <div id="templateSelectorContainer">
                 <label for="manufacturerSelect">选择厂商 (预设):</label>
@@ -63,7 +66,7 @@
             <label for="supervisionPhone">监督电话:</label>
             <input type="text" id="supervisionPhone" value="12318">
 
-            <label for="qrLink">审核公示链接(二维码自动生成):</label>
+            <label for="qrLink">审核公示链接(自动生成二维码):</label>
             <input type="text" id="qrLink" value="https://example.com">
 
             <label for="qrErrorCorrection">二维码纠错等级(密集程度):</label>
@@ -84,21 +87,20 @@
                 <option value="Verdana, Geneva, sans-serif">Verdana</option>
             </select>
 
-            <label for="fontSize">内容字体大小 (px): <span id="fontSizeValue">20px</span></label>
+            <label for="fontSize">字体大小 (px): <span id="fontSizeValue">20px</span></label>
             <input type="range" id="fontSize" value="20" min="10" max="40" step="1">
 
-            <label for="fontWeight">内容字体粗细: <span id="fontWeightValue">900</span></label>
+            <label for="fontWeight">字体粗细: <span id="fontWeightValue">900</span></label>
             <input type="range" id="fontWeight" value="900" min="100" max="1500" step="100">
 
             <label for="lineHeight">行间距: <span id="lineHeightValue">1.6</span></label>
             <input type="range" id="lineHeight" value="1.6" min="1" max="3" step="0.1">
         </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
+    </div>    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="templates.js"></script>
     <script src="script.js"></script>
+    <script src="mobile-scale.js"></script>
 
     <div class="more-info-section">
         <h2>使用说明</h2>

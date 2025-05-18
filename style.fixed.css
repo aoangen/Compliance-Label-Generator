@@ -1,3 +1,6 @@
+/* 
+ * 修复版样式表 - 增加了移动端自适应缩放功能
+ */
 body {
     font-family: SimSun, Songti SC, NSimSun, FangSong, KaiTi, Microsoft YaHei, sans-serif;
     margin: 0;
@@ -143,8 +146,19 @@ button:hover {
 .label-container {
     display: flex;
     justify-content: center;
-    overflow-x: auto;
+    align-items: center; /* 添加垂直居中 */
+    overflow: visible; /* 确保内容不被裁剪，且不出现滚动条 */
     width: 100%;
+    height: auto; /* 自动高度，适应内容 */
+}
+
+.mobile-view-hint {
+    display: none; /* 默认隐藏 */
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 #electronic-label {
@@ -209,26 +223,33 @@ button:hover {
         order: -1; /* Ensure preview section is on top */
         width: 100%; /* 确保预览部分占满容器宽度 */
     }
-    .label-container {
-        overflow: visible; /* 允许内容完整显示，不裁剪 */
+    .mobile-view-hint {
+        display: block; /* 在移动设备上显示提示 */
+    }    .label-container {
+        overflow: visible; /* 内容完全可见，不裁剪 */
+        width: 100%;
         display: flex;
         justify-content: center;
-        height: auto; /* 高度自适应内容 */
+        align-items: center; /* 垂直居中 */
     }
+    
     #electronic-label {
         width: 600px; /* 原始宽度 */
         min-width: auto; /* 移动端不设置最小宽度限制 */
         transform-origin: center center; /* 从中心点缩放 */
-        /* 根据视口宽度自动缩放，同时确保完全显示 */
-        transform: scale(calc(min(100vw - 60px, 600px) / 600));
-        margin: 10px 0; /* 减少上下边距 */
+        /* 简化缩放公式，确保在移动设备上完整显示 */
+        transform: scale(0.65);
+        margin: 0 auto; /* 移除底部大边距 */
+        height: auto; /* 自动高度 */
+        position: static; /* 确保不使用绝对定位 */
     }
     #templateSelectorContainer {
         order: 0; /* Ensure template selector is below the preview image but above form */
     }
     .action-buttons {
         order: 1; /* Ensure buttons are after template selector on mobile */
-    }    .form-section {
+    }
+    .form-section {
         order: 2; /* Ensure form section is at the bottom */
     }
 }
