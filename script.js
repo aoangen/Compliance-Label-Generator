@@ -587,7 +587,7 @@ document.addEventListener('DOMContentLoaded', () => {
             text: "http://mp.weixin.qq.com/mp/homepage?__biz=MzIyNDM0NTQxNw==&hid=25&sn=3ebf0f25f49d224e5a3f2c0cc40146d0&scene=18#wechat_redirect", 
             width: 80,
             height: 80,
-            correctLevel: QRCode.CorrectLevel.M
+            correctLevel: QRCode.CorrectLevel.L
         });
     }
 });

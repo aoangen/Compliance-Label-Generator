@@ -331,3 +331,17 @@ button:hover {
     max-height: 100%;
     border: 1px solid #eee; /* Optional: slight border for the small QRs */
 }
+
+/* --- Disclaimer Section Styles --- */
+.disclaimer-section {
+    text-align: center; /* 居中显示 */
+    font-size: 0.8em; /* 小字体 */
+    color: #818181; /* 浅灰色 */
+    margin-top: 20px; /* 与上方内容保持间距 */
+    padding: 10px;
+    border-top: 1px solid #eee; /* 可选：添加一个顶部分隔线 */
+}
+
+.disclaimer-section p {
+    margin-bottom: 5px; /*段落间距*/
+}
