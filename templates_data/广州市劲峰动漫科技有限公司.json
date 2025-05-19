@@ -1,0 +1,546 @@
+[
+  {
+    "Type": "游艺设备",
+    "Devices": [
+      {
+        "Name": "卡乐星",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2025〕86号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=668803385817828357&isChange=false&type=1"
+      },
+      {
+        "Name": "田吕晨",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2025〕85号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=667411447080291333&isChange=false&type=1"
+      },
+      {
+        "Name": "超运喵喵",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1158号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=602831114087696005&isChange=false&type=1"
+      },
+      {
+        "Name": "迷你可颂2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕881号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=10117&isChange=false&type=1"
+      },
+      {
+        "Name": "镜中圆",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕384号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=9307&isChange=false&type=1"
+      },
+      {
+        "Name": "太空转转乐",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕387号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6829&isChange=false&type=1"
+      },
+      {
+        "Name": "运气计算机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕385号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=9306&isChange=false&type=1"
+      },
+      {
+        "Name": "千机变100",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕386号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=8901&isChange=false&type=1"
+      },
+      {
+        "Name": "太空炮炮球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕199号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=8508&isChange=false&type=1"
+      },
+      {
+        "Name": "叠乘双",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕194号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=9015&isChange=false&type=1"
+      },
+      {
+        "Name": "千百度",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕196号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=8905&isChange=false&type=1"
+      },
+      {
+        "Name": "运气磁力王",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕195号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=8920&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃超",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕197号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=8635&isChange=false&type=1"
+      },
+      {
+        "Name": "迷你可颂",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕198号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=8559&isChange=false&type=1"
+      },
+      {
+        "Name": "千机变",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕613号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=7967&isChange=false&type=1"
+      },
+      {
+        "Name": "运气寻宝珠",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕401号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=7157&isChange=false&type=1"
+      },
+      {
+        "Name": "城市救援2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕402号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6865&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃时光",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕207号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6859&isChange=false&type=1"
+      },
+      {
+        "Name": "运气三连",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕208号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6827&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃迷你抓机版",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕42号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6862&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃迷你爆气版",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕43号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6861&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃迷你推推乐版",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕44号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6860&isChange=false&type=1"
+      },
+      {
+        "Name": "潮流开拓者",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕731号        ",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6322&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃离",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕730号    ",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6323&isChange=false&type=1"
+      },
+      {
+        "Name": "运气夺宝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕364号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=6009&isChange=false&type=1"
+      },
+      {
+        "Name": "运气贩卖魔法师",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕69号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=5314&isChange=false&type=1"
+      },
+      {
+        "Name": "太空大灌篮双",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕72号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=4990&isChange=false&type=1"
+      },
+      {
+        "Name": "潮流挑战者",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕70号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=5228&isChange=false&type=1"
+      },
+      {
+        "Name": "太空保龄球双",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕73号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=4989&isChange=false&type=1"
+      },
+      {
+        "Name": "太空夺宝双",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕74号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=4987&isChange=false&type=1"
+      },
+      {
+        "Name": "太空重炮手双",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕71号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=4991&isChange=false&type=1"
+      },
+      {
+        "Name": "潮流大师",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕832号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=4619&isChange=false&type=1"
+      },
+      {
+        "Name": "潮流博士",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕833号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=4618&isChange=false&type=1"
+      },
+      {
+        "Name": "大萌炮炮岛",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕834号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3871&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃肆",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕471号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3861&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃双",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕475号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3865&isChange=false&type=1"
+      },
+      {
+        "Name": "太空重炮手",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕479号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=4452&isChange=false&type=1"
+      },
+      {
+        "Name": "潮流特工",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕470号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3860&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃厚",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕474号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3864&isChange=false&type=1"
+      },
+      {
+        "Name": "铁道梦之旅",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕478号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3868&isChange=false&type=1"
+      },
+      {
+        "Name": "太空夺宝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕468号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3569&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃框",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕473号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3863&isChange=false&type=1"
+      },
+      {
+        "Name": "极地救援",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕477号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3867&isChange=false&type=1"
+      },
+      {
+        "Name": "潮流侵略者",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕469号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3858&isChange=false&type=1"
+      },
+      {
+        "Name": "飞跃阔",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕472号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3862&isChange=false&type=1"
+      },
+      {
+        "Name": "迷你侵略者推推乐版（黑色、白色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕476号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3866&isChange=false&type=1"
+      },
+      {
+        "Name": "太空大灌篮",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕142号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3570&isChange=false&type=1"
+      },
+      {
+        "Name": "太空保龄球D",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕146号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3575&isChange=false&type=1"
+      },
+      {
+        "Name": "烈火救援",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕145号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3573&isChange=false&type=1"
+      },
+      {
+        "Name": "迷你侵略者爆气版（黑色，白色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕144号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3572&isChange=false&type=1"
+      },
+      {
+        "Name": "太空城堡",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕141号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3568&isChange=false&type=1"
+      },
+      {
+        "Name": "電王",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕143号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=3571&isChange=false&type=1"
+      },
+      {
+        "Name": "魔法城堡柜台版",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A560号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2152&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具时光机（黑色/白色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A561号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2417&isChange=false&type=1"
+      },
+      {
+        "Name": "夺宝GOGOGO柜台版",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A408号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2151&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具剪客",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A411号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2155&isChange=false&type=1"
+      },
+      {
+        "Name": "灌篮大明猩",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A407号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2150&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具召唤师（黑色/白色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A410号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2154&isChange=false&type=1"
+      },
+      {
+        "Name": "1球成名",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A413号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2158&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具侵略者2（黑色/白色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A409号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2153&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具剪客EV",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A412号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=2157&isChange=false&type=1"
+      },
+      {
+        "Name": "全明星保龄球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审【2019】A042号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=1574&isChange=false&type=1"
+      },
+      {
+        "Name": "滑雪王国",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A912号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=396&isChange=false&type=1"
+      },
+      {
+        "Name": "夺宝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A914号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=813&isChange=false&type=1"
+      },
+      {
+        "Name": "大师棒恰恰",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A913号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=797&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具特工（黑色，白色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A915号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=838&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具博士",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A328号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_415&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具大师",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A564 号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_658&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具棒恰恰",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A568 号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_662&isChange=false&type=1"
+      },
+      {
+        "Name": "小丑大炮",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A327号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_414&isChange=false&type=1"
+      },
+      {
+        "Name": "小小明星赛",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A331号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_418&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具侵略者",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A567 号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_661&isChange=false&type=1"
+      },
+      {
+        "Name": "淘气巴士",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A330号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_417&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具博士B",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A566号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_660&isChange=false&type=1"
+      },
+      {
+        "Name": "从娃娃抓起",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A329号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_416&isChange=false&type=1"
+      },
+      {
+        "Name": "玩具大师B",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A565号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_659&isChange=false&type=1"
+      },
+      {
+        "Name": "魔法城堡",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A569 号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_663&isChange=false&type=1"
+      }
+    ]
+  }
+]
