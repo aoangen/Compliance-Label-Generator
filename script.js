@@ -10,6 +10,26 @@ function findDeviceData(manufacturerData, typeName, deviceName) {
     return typeInfo.Devices.find(d => d.Name === deviceName);
 }
 
+// Helper function to ensure URL query parameters are properly percent-encoded
+function ensureQueryParametersEncoded(urlString) {
+    if (!urlString) return ""; // Handle empty or null input
+    try {
+        // The URL constructor will parse the URL. If it contains raw characters in
+        // query parameters (e.g., Chinese characters), they will be correctly
+        // percent-encoded when the URL is converted back to a string using toString().
+        // This ensures the URL is valid and suitable for the QR code library.
+        return new URL(urlString).toString();
+    } catch (e) {
+        // This might happen if the urlString is not a valid absolute URL or
+        // is malformed in a way the URL constructor cannot handle.
+        console.warn("Failed to process URL for QR code, using original. URL:", urlString, "Error:", e);
+        // Fallback to original string if parsing/reconstruction fails,
+        // as this might still allow QR generation if the original error was intermittent
+        // or specific to certain unencoded characters not present in this instance.
+        return urlString;
+    }
+}
+
 // Function to generate QR Code
 function generateQRCode() {
     const qrLinkInput = document.getElementById('qrLink');
@@ -17,8 +37,11 @@ function generateQRCode() {
     const errorCorrectionLevelSelect = document.getElementById('qrErrorCorrection');
     
     qrCodeContainer.innerHTML = ''; // Clear previous QR code
-    const linkValue = qrLinkInput.value.trim();
+    let linkValue = qrLinkInput.value.trim(); // Changed to let for reassignment
     const errorCorrectionLevel = errorCorrectionLevelSelect.value;
+
+    // Process the link to ensure query parameters are properly encoded
+    linkValue = ensureQueryParametersEncoded(linkValue);
 
     if (linkValue) {
         try {
@@ -28,7 +51,7 @@ function generateQRCode() {
                 return;
             }
             new QRCode(qrCodeContainer, {
-                text: linkValue,
+                text: linkValue, // Use the processed and correctly encoded link
                 width: 160, 
                 height: 160,
                 colorDark: "#000000",
@@ -63,10 +86,10 @@ function applyDeviceData(deviceData) {
         qrLinkInput.value = deviceData.Link || '';
     } else {
         deviceCategoryInput.value = '游艺机';
-        deviceNameInput.value = '甜蜜宝贝5';
-        approvalNumberInput.value = '粤游审〔2016〕A110号';
+        deviceNameInput.value = '设备名称';
+        approvalNumberInput.value = '粤游审〔201x〕A100号';
         supervisionPhoneInput.value = '12318';
-        qrLinkInput.value = 'https://example.com';
+        qrLinkInput.value = 'https://sh.gegia.cn/user/login.do#/index';
     }
 
     previewDeviceCategory.textContent = deviceCategoryInput.value;
@@ -591,3 +614,172 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// Helper function to escape HTML to prevent XSS
+function escapeHTML(str) {
+    if (typeof str !== 'string') return ''; // Ensure str is a string
+    return str.replace(/[&<>'\"]/g, 
+        tag => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            "'": '&#39;',
+            '"': '&quot;'
+        }[tag] || tag)
+    );
+}
+
+// Debounce function
+function debounce(func, delay) {
+    let timeout;
+    return function(...args) {
+        const context = this;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(context, args), delay);
+    };
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Algolia Direct Search Initialization
+    const searchClient = algoliasearch('WX2YYRHSCB', '3c5b63181c7325a6b96dcdcf94204295'); 
+    const searchIndex = searchClient.initIndex('guangdong_approved_games_with_links'); 
+
+    const searchInput = document.getElementById('searchInput');
+    const searchButton = document.getElementById('searchButton');
+    const resultsContainer = document.getElementById('searchResultsContainer');
+
+    if (!searchInput || !searchButton || !resultsContainer) {
+        console.error('Search UI elements not found. Direct search functionality will not work.');
+        return;
+    }
+
+    async function performSearch(query) {
+        if (!query.trim()) {
+            resultsContainer.innerHTML = '';
+            resultsContainer.classList.remove('active');
+            return;
+        }
+        resultsContainer.classList.add('active'); 
+        resultsContainer.innerHTML = '<div class="search-result-item">搜索中...</div>'; 
+
+        try {
+            const { hits } = await searchIndex.search(query, { hitsPerPage: 10 });
+            displayResults(hits);
+        } catch (error) {
+            console.error('Algolia search error:', error);
+            resultsContainer.innerHTML = '<div class="no-results">搜索时发生错误。</div>';
+        }
+    }
+
+    function displayResults(hits) {
+        resultsContainer.innerHTML = ''; 
+        if (hits.length === 0) {
+            resultsContainer.innerHTML = '<div class="no-results">未找到结果。</div>';
+        } else {
+            hits.forEach(hit => {
+                const hitElement = document.createElement('div');
+                hitElement.classList.add('search-result-item');
+
+                const name = hit.Name ? escapeHTML(hit.Name) : '未知名称';
+                const operator = hit['运营单位'] ? escapeHTML(hit['运营单位']) : '未知运营单位';
+
+                const displayName = (hit._highlightResult && hit._highlightResult.Name) ? hit._highlightResult.Name.value : name;
+                const displayOperator = (hit._highlightResult && hit._highlightResult['运营单位']) ? hit._highlightResult['运营单位'].value : operator;
+
+                hitElement.innerHTML = `<strong>${displayName}</strong><br><span class="operator">${displayOperator}</span>`;
+                hitElement.addEventListener('click', () => {
+                    selectDeviceFromSearch(hit); 
+                    searchInput.value = ''; 
+                    resultsContainer.innerHTML = ''; 
+                    resultsContainer.classList.remove('active');
+                });
+                resultsContainer.appendChild(hitElement);
+            });
+        }
+        resultsContainer.classList.add('active'); 
+    }
+
+    searchInput.addEventListener('keypress', (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault(); 
+            const query = searchInput.value;
+            if (query.trim()) { // Check if query is not empty
+                performSearch(query);
+            } else {
+                resultsContainer.innerHTML = ''; // Clear results if query is empty
+                resultsContainer.classList.remove('active');
+            }
+        }
+    });
+
+    searchButton.addEventListener('click', () => {
+        const query = searchInput.value;
+        if (query.trim()) { // Check if query is not empty
+            performSearch(query);
+        } else {
+            resultsContainer.innerHTML = ''; // Clear results if query is empty
+            resultsContainer.classList.remove('active');
+        }
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!resultsContainer.contains(event.target) && event.target !== searchInput && event.target !== searchButton) {
+            resultsContainer.classList.remove('active');
+        }
+    });
+    
+    searchInput.addEventListener('focus', () => {
+        if (searchInput.value.trim()) {
+             performSearch(searchInput.value);
+        }
+    });
+});
+
+// 从搜索结果中选择设备并直接填充输入框和预览
+function selectDeviceFromSearch(hit) {
+    // 直接填充输入信息表单的字段
+    const deviceCategoryInput = document.getElementById('deviceCategory');
+    const deviceNameInput = document.getElementById('deviceName');
+    const approvalNumberInput = document.getElementById('approvalNumber');
+    const supervisionPhoneInput = document.getElementById('supervisionPhone');
+    const qrLinkInput = document.getElementById('qrLink');
+
+    if (deviceCategoryInput) deviceCategoryInput.value = hit.DeviceCategory || '';
+    if (deviceNameInput) deviceNameInput.value = hit.Name || '';
+    if (approvalNumberInput) approvalNumberInput.value = hit.ApprovalNumber || '';
+    if (supervisionPhoneInput) supervisionPhoneInput.value = hit.supervisionPhone !== undefined ? String(hit.supervisionPhone) : '';
+    if (qrLinkInput) qrLinkInput.value = hit.Link || '';
+
+    // 更新预览区域的文本内容
+    const previewDeviceCategory = document.getElementById('previewDeviceCategory');
+    const previewDeviceName = document.getElementById('previewDeviceName');
+    const previewApprovalNumber = document.getElementById('previewApprovalNumber');
+    const previewSupervisionPhone = document.getElementById('previewSupervisionPhone');
+
+    if (previewDeviceCategory) previewDeviceCategory.textContent = deviceCategoryInput.value;
+    if (previewDeviceName) previewDeviceName.textContent = deviceNameInput.value;
+    if (previewApprovalNumber) previewApprovalNumber.textContent = approvalNumberInput.value;
+    if (previewSupervisionPhone) previewSupervisionPhone.textContent = supervisionPhoneInput.value;
+
+    // 生成新的二维码
+    if (typeof generateQRCode === 'function') {
+        generateQRCode();
+    }
+
+    // 清空预设下拉框，因为我们直接使用了 Algolia 的数据
+    const manufacturerSelect = document.getElementById('manufacturerSelect');
+    const typeSelect = document.getElementById('typeSelect');
+    const deviceSelect = document.getElementById('deviceSelect');
+
+    if (manufacturerSelect) manufacturerSelect.value = '';
+    if (typeSelect) {
+        typeSelect.innerHTML = '<option value="">--请选择类型--</option>';
+        typeSelect.disabled = true;
+    }
+    if (deviceSelect) {
+        deviceSelect.innerHTML = '<option value="">--请选择设备--</option>';
+        deviceSelect.disabled = true;
+    }
+    // 重置 currentManufacturerData，因为它与预设相关
+    currentManufacturerData = null; 
+}

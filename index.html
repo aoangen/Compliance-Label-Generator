@@ -2,10 +2,11 @@
 <html lang="zh-CN">
 <head>    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>电子标识合集 | AoanGEN</title>
-    <link rel="stylesheet" href="style.fixed.css">
+    <title>电子标识合集 | AoanGEN</title>    <link rel="stylesheet" href="style.fixed.css">
     <link rel="stylesheet" href="mobile-fixes.css">
     <link rel="stylesheet" href="no-scroll-fixes.css">
+    <link rel="stylesheet" href="search-styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/satellite-min.css" />
 </head>
 <body>
     <div class="container">        <div class="preview-section">
@@ -16,8 +17,8 @@
                         <div class="label-content">
                             <div class="label-info">
                                 <div><span class="label-key">设备类别：</span><span id="previewDeviceCategory" class="preview-value">游艺机</span></div>
-                                <div><span class="label-key">设备名称：</span><span id="previewDeviceName" class="preview-value">甜蜜宝贝5</span></div>
-                                <div><span class="label-key">批准文号：</span><span id="previewApprovalNumber" class="preview-value">粤游审〔2016〕A110号</span></div>
+                                <div><span class="label-key">设备名称：</span><span id="previewDeviceName" class="preview-value">设备名称</span></div>
+                                <div><span class="label-key">批准文号：</span><span id="previewApprovalNumber" class="preview-value">粤游审〔201x〕A100号</span></div>
                                 <div><span class="label-key">监督电话：</span><span id="previewSupervisionPhone" class="preview-value">12318</span></div>
                             </div>
                             <div id="qrCodeContainer">
@@ -43,6 +44,13 @@
                 <select id="deviceSelect" disabled>
                     <option value="">--请选择设备--</option>
                 </select>
+            </div>            <div class="controls-section">
+                <h3>数据搜索</h3>
+                <div class="search-bar-container">
+                    <input type="text" id="searchInput" placeholder="输入游戏名称或运营单位...">
+                    <button id="searchButton" type="button">搜索</button>
+                    <div id="searchResultsContainer"></div> <!-- 搜索结果将显示在这里 -->
+                </div>
             </div>
             <div class="action-buttons">
                 <button id="downloadBtn">下载图片</button>
@@ -98,14 +106,18 @@
         </div>
     </div>    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
     <script src="script.js"></script>
     <script src="mobile-scale.js"></script>
 
     <div class="more-info-section">
         <h2>使用说明</h2>
         <p>审核设备公示查询地址 <a href="https://sh.gegia.cn/user/login.do#/index" target="_blank" rel="noopener noreferrer">点击跳转</a> 或复制链接到浏览器打开进行查询: https://sh.gegia.cn/user/login.do#/index</p>
-        <p>本网站收录电子标识数量 3319 更新日期2025-5-19</p>
-
+        <p>本网站收录电子标识数量：</p>
+        <p>预设主流设备：3319</p>
+        <p>搜索功能包含粤审数据库：8909</p>
+        <p>更新日期：2025-5-20</p>
         <h2>更多项目</h2>
         <p><a href="https://fluffy-piroshki-301606.netlify.app/" target="_blank" rel="noopener noreferrer">卡头信号传递演示</a></p>
         <p><a href="https://monumental-bunny-0af760.netlify.app/" target="_blank" rel="noopener noreferrer">数码管模拟器</a></p>
@@ -130,5 +142,7 @@
         <p>如相关权利人认为本平台展示的信息存在侵权情形，请及时联系。本平台将在收到有效材料后，依法依规履行信息处理义务。</p>
         <p>用户使用本平台即视为已充分知悉并同意：平台信息可能存在滞后性，具体内容应以主管部门最新公示文本为准，本平台不承担因信息差异导致的任何法律后果。</p>
     </div>
+
+
 </body>
 </html>

@@ -21,7 +21,7 @@ body {
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box; /* Added for consistent width calculation */
-    overflow-x: hidden; /* 防止横向溢出 */
+    /* overflow-x: hidden; */ /* 防止横向溢出 - 注释掉此行 */
 }
 
 .form-section, .preview-section {
