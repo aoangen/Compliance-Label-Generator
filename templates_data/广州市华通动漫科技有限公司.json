@@ -3,6 +3,13 @@
     "Type": "游艺设备",
     "Devices": [
       {
+        "Name": "欢乐魔术师",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A012号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_1516&isChange=false&type=1"
+      },
+      {
         "Name": "球袋精灵-1",
         "DeviceCategory": "游艺机",
         "ApprovalNumber": "粤游艺审〔2025〕130号",
@@ -155,13 +162,6 @@
         "ApprovalNumber": "粤游审〔2018〕A009号",
         "SupervisionPhone": "12318",
         "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_1513&isChange=false&type=1"
-      },
-      {
-        "Name": "欢乐魔术师",
-        "DeviceCategory": "游艺机",
-        "ApprovalNumber": "粤游审〔2018〕A012号",
-        "SupervisionPhone": "12318",
-        "Link": "https://sh.gegia.cn/user/login.do#/detail/product-catalog?formListType=%E5%B7%B2%E9%80%9A%E8%BF%87%E4%BA%A7%E5%93%81%E7%9B%AE%E5%BD%95&id=his_1516&isChange=false&type=1"
       },
       {
         "Name": "欢乐之王",
