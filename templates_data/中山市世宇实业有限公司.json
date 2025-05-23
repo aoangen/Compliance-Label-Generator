@@ -1,0 +1,364 @@
+[
+  {
+    "Type": "游艺设备",
+    "Devices": [
+      {
+        "Name": "疯狂篮球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-037",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1714"
+      },
+      {
+        "Name": "丛林鼓王",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-041",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1718"
+      },
+      {
+        "Name": "湾岸赛车29\"3代",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-044",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1722"
+      },
+      {
+        "Name": "海洋气垫球（海龟）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-001",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1678"
+      },
+      {
+        "Name": "复仇行动",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-048",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1726"
+      },
+      {
+        "Name": "快乐天使2代",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-005",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1682"
+      },
+      {
+        "Name": "拾蛋机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-009",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1686"
+      },
+      {
+        "Name": "大象摇钱树",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-013",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1690"
+      },
+      {
+        "Name": "星空捕手",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-017",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1694"
+      },
+      {
+        "Name": "一步登天",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-021",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1698"
+      },
+      {
+        "Name": "竹节取水",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-025",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1702"
+      },
+      {
+        "Name": "黄金堡",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-029",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1706"
+      },
+      {
+        "Name": "森林奇侠",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-033",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1710"
+      },
+      {
+        "Name": "初级篮球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-036",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1713"
+      },
+      {
+        "Name": "保龄球2代",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-040",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1717"
+      },
+      {
+        "Name": "航海小勇士",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-043",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1721"
+      },
+      {
+        "Name": "翻斗娃娃机（新款）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-047",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1725"
+      },
+      {
+        "Name": "神射手",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-004",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1681"
+      },
+      {
+        "Name": "挖糖机四代(樱花版)",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-050",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1729"
+      },
+      {
+        "Name": "古董保龄球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-008",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1685"
+      },
+      {
+        "Name": "青蛙王子",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-012",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1689"
+      },
+      {
+        "Name": "狩猎之旅",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-016",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1693"
+      },
+      {
+        "Name": "海盗王",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-020",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1697"
+      },
+      {
+        "Name": "真人足球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-024",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1701"
+      },
+      {
+        "Name": "大货车II",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-028",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1705"
+      },
+      {
+        "Name": "垃圾桶（双人）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-032",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1709"
+      },
+      {
+        "Name": "大口狗",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-035",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1712"
+      },
+      {
+        "Name": "照相拳击手",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-039",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1716"
+      },
+      {
+        "Name": "无敌船长",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-042",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1720"
+      },
+      {
+        "Name": "跳绳机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-046",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1724"
+      },
+      {
+        "Name": "打地鼠",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-003",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1680"
+      },
+      {
+        "Name": "全脑锻炼",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-049",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1728"
+      },
+      {
+        "Name": "古堡历险",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-007",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1684"
+      },
+      {
+        "Name": "虚幻森林",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-052",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1732"
+      },
+      {
+        "Name": "流金岁月2代",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-011",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1688"
+      },
+      {
+        "Name": "蜘蛛网",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-015",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1692"
+      },
+      {
+        "Name": "藏金洞",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-019",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1696"
+      },
+      {
+        "Name": "真人篮球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-023",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1700"
+      },
+      {
+        "Name": "金字塔",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-027",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1704"
+      },
+      {
+        "Name": "神奇滚球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-031",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1708"
+      },
+      {
+        "Name": "极限投球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-038",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1715"
+      },
+      {
+        "Name": "太鼓达人11代",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-045",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1723"
+      },
+      {
+        "Name": "豪华气垫球（大象）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-002",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1679"
+      },
+      {
+        "Name": "猫鼠游戏",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-006",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1683"
+      },
+      {
+        "Name": "狂猿",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-010",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1687"
+      },
+      {
+        "Name": "小魔怪",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-014",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1691"
+      },
+      {
+        "Name": "星球大战",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-018",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1695"
+      },
+      {
+        "Name": "音乐盛会",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-022",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1699"
+      },
+      {
+        "Name": "法老王（出票）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-026",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1703"
+      },
+      {
+        "Name": "财源滚滚",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-030",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1707"
+      },
+      {
+        "Name": "蔬菜园",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "GS-2009-1-034",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1711"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "游艺设备",
+    "Devices": [
+      {
+        "Name": "小猪快跑",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A013号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_1524"
+      },
+      {
+        "Name": "疯狂剪刀3",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A760号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_856"
+      },
+      {
+        "Name": "海绵宝宝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A759号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_855"
+      },
+      {
+        "Name": "双层胭脂扣",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A763号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_859"
+      },
+      {
+        "Name": "天使之心",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2017〕A762号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=his_858"
+      }
+    ]
+  }
+]
