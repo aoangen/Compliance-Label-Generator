@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "游艺设备",
+    "Devices": [
+      {
+        "Name": "宇宙战机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游戏审〔2023〕14号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7293"
+      },
+      {
+        "Name": "巅峰之塔",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕838号  ",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5288"
+      },
+      {
+        "Name": "牛魔王",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕137号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5291"
+      }
+    ]
+  }
+]

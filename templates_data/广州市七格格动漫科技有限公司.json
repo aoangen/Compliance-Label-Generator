@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "游艺设备",
+    "Devices": [
+      {
+        "Name": "超级跳珠",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A609号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2502"
+      },
+      {
+        "Name": "萌乎乎2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A610号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2530"
+      },
+      {
+        "Name": "格格6",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A266号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1997"
+      },
+      {
+        "Name": "琉璃阁",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A265号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1931"
+      },
+      {
+        "Name": "萌乎乎（蓝色、粉色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审【2019】A079号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1559"
+      }
+    ]
+  }
+]

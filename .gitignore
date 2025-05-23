@@ -1,0 +1,29 @@
+# 忽略开发工具脚本
+generate_template_files.js
+encode-urls.js
+
+# 忽略已弃用的数据文件（如果需要保留本地备份）
+# 取消下面这行的注释，如果您希望完全排除原始数据文件
+templates.js
+
+# 忽略临时文件
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
+
+# 忽略IDE和编辑器的特定文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略npm文件（如果您使用npm）
+node_modules/
+package-lock.json
+
+# 忽略临时构建目录
+/dist/
+/build/
