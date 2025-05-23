@@ -1,0 +1,973 @@
+[
+  {
+    "Type": "游艺设备",
+    "Devices": [
+      {
+        "Name": "经典奥特曼之迷你宝贝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2025〕76号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=639732079340292741"
+      },
+      {
+        "Name": "经典奥特曼之英雄出击",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2025〕77号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=661103307086891973"
+      },
+      {
+        "Name": "迷你宝贝Ⅱ-1",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2025〕134号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=667372788633308165"
+      },
+      {
+        "Name": "七彩宝贝Ⅲ-1",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2025〕135号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=667303864138992645"
+      },
+      {
+        "Name": "敲击乐园 ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1293号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=636492316655225349"
+      },
+      {
+        "Name": "咖宝车神极速争霸",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1289号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10064"
+      },
+      {
+        "Name": "迷你精品机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1292号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=636492094688463365"
+      },
+      {
+        "Name": "小玩食代Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1295号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=636570083602205189"
+      },
+      {
+        "Name": "迷你宝贝2S（白色、黄色、粉色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1291号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=636492040619690501"
+      },
+      {
+        "Name": "迷你娃娃机2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1294号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=636493235937610245"
+      },
+      {
+        "Name": "迷你宝贝3S",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1290号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=636491934537353733"
+      },
+      {
+        "Name": "运动之星",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1116号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=628511678400563397"
+      },
+      {
+        "Name": "皇牌骑士",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1112号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=593094990943486533"
+      },
+      {
+        "Name": "幸运夹击3",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1115号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=628511193530632389"
+      },
+      {
+        "Name": "激斗赛艇",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1119号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=630065306689079621"
+      },
+      {
+        "Name": "幸运夹机2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1114号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=628510939074791621"
+      },
+      {
+        "Name": "吊塔天王",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1118号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=628512697893259461"
+      },
+      {
+        "Name": "盲盒大师",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1120号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9855"
+      },
+      {
+        "Name": "迷你幸运夹机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1113号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=628510873878530245"
+      },
+      {
+        "Name": "糖果精灵2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕1117号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=628512637776300229"
+      },
+      {
+        "Name": "潮玩E族Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕603号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10061"
+      },
+      {
+        "Name": "迷你夹机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕648号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10070"
+      },
+      {
+        "Name": "小马菲莉缤纷仙境",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕599号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10028"
+      },
+      {
+        "Name": "幸运夹击",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕649号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=587563610553712645"
+      },
+      {
+        "Name": "迷你小站",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕645号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9826"
+      },
+      {
+        "Name": "迷你七彩宝贝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕643号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10063"
+      },
+      {
+        "Name": "迷你宝贝Ⅲ（粉色、白色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕600号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10069"
+      },
+      {
+        "Name": "七彩夹机Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕647号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10072"
+      },
+      {
+        "Name": "潮玩E族Ⅲ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕601号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10062"
+      },
+      {
+        "Name": "七彩夹机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕602号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=10071"
+      },
+      {
+        "Name": "梦幻乐园",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕646号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9759"
+      },
+      {
+        "Name": "七彩单车 ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕644号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9810"
+      },
+      {
+        "Name": "七彩宝贝ⅢS（黄、粉）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕350号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9201"
+      },
+      {
+        "Name": "七彩之星",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕348号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9457"
+      },
+      {
+        "Name": "梦幻星球八",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕345号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9461"
+      },
+      {
+        "Name": "梦幻星球七",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕346号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9460"
+      },
+      {
+        "Name": "七彩联盟3S",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕343号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9585"
+      },
+      {
+        "Name": "七彩联盟2S",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕344号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9584"
+      },
+      {
+        "Name": "街区篮球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕349号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9202"
+      },
+      {
+        "Name": "梦幻星球六",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕347号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=9459"
+      },
+      {
+        "Name": "七彩联盟",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2024〕171号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=8933"
+      },
+      {
+        "Name": "潮玩e族",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕592号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=8089"
+      },
+      {
+        "Name": "小马菲莉璐璐",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕356号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7657"
+      },
+      {
+        "Name": "魅力七彩2S",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕357号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7597"
+      },
+      {
+        "Name": "终极斗士",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游戏审〔2023〕4号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7536"
+      },
+      {
+        "Name": "梦幻星球Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕171号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7270"
+      },
+      {
+        "Name": "梦幻星球Ⅰ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕172号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7269"
+      },
+      {
+        "Name": "梦幻星球五",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕168号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7273"
+      },
+      {
+        "Name": "小飞碟",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕173号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7268"
+      },
+      {
+        "Name": "梦幻星球四",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕169号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7272"
+      },
+      {
+        "Name": "七彩格子宝贝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕174号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7267"
+      },
+      {
+        "Name": "梦幻星球Ⅲ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕170号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=7271"
+      },
+      {
+        "Name": "萌萌哒Ⅲ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕8号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6970"
+      },
+      {
+        "Name": "星球大炮",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕11号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6910"
+      },
+      {
+        "Name": "迷你宝贝-1",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕147号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5940"
+      },
+      {
+        "Name": "火力突击",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕14号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6846"
+      },
+      {
+        "Name": "幸运夹夹乐",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕12号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6909"
+      },
+      {
+        "Name": "魅力一族Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕16号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6839"
+      },
+      {
+        "Name": "欢乐时光2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕6号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6973"
+      },
+      {
+        "Name": "七彩宝贝Ⅲ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕9号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6912"
+      },
+      {
+        "Name": "迷你宝贝Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕15号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6845"
+      },
+      {
+        "Name": "迷你宝贝Ⅱ2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕13号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6908"
+      },
+      {
+        "Name": "魅力七彩3S",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕7号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6972"
+      },
+      {
+        "Name": "消灭入侵者",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2023〕10号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6911"
+      },
+      {
+        "Name": "幸运扭蛋2（红，粉，蓝，黄）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕489号       ",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6195"
+      },
+      {
+        "Name": "神枪萌娃",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕490号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=6106"
+      },
+      {
+        "Name": "超级坦克Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕320号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5855"
+      },
+      {
+        "Name": "魅力七彩Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕321号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5854"
+      },
+      {
+        "Name": "七彩宝贝Ⅱ（红，粉，蓝，黄）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕322号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5853"
+      },
+      {
+        "Name": "快乐飞艇",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕323号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5619"
+      },
+      {
+        "Name": "闪电赛车",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕195号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5620"
+      },
+      {
+        "Name": "迷你宝贝2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕56号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5313"
+      },
+      {
+        "Name": "小王子Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕55号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5341"
+      },
+      {
+        "Name": "萌萌哒Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2022〕57号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=5312"
+      },
+      {
+        "Name": "机械狂人",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕807号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4823"
+      },
+      {
+        "Name": "萌小柒",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕974号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4815"
+      },
+      {
+        "Name": "猎斗王",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕973号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4819"
+      },
+      {
+        "Name": "快乐小骑手",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕972号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4826"
+      },
+      {
+        "Name": "萌小六",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕975号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4813"
+      },
+      {
+        "Name": "魅力七彩",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕970号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4838"
+      },
+      {
+        "Name": "萌小五",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕976号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4812"
+      },
+      {
+        "Name": "极速战鹰Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕808号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4817"
+      },
+      {
+        "Name": "迷你宝贝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕971号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4837"
+      },
+      {
+        "Name": "萌小四",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕977号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4811"
+      },
+      {
+        "Name": "极光飞车",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕809号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4816"
+      },
+      {
+        "Name": "极品摩托",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕810号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2545"
+      },
+      {
+        "Name": "乖宝贝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕264号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=446"
+      },
+      {
+        "Name": "欢乐时光（黑、粉）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕276号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4472"
+      },
+      {
+        "Name": "迷你七彩",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕268号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4334"
+      },
+      {
+        "Name": "海盗大冒险Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕271号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4339"
+      },
+      {
+        "Name": "礼品超市",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕273号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4343"
+      },
+      {
+        "Name": "粉爱3（粉、蓝、黑）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕266号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4312"
+      },
+      {
+        "Name": "七彩宝贝（黑红、白红、粉色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕267号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4333"
+      },
+      {
+        "Name": "礼品之星",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕270号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4337"
+      },
+      {
+        "Name": "一枪成名2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕272号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4341"
+      },
+      {
+        "Name": "礼品新星",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕275号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4471"
+      },
+      {
+        "Name": "礼品小镇",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕265号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2934"
+      },
+      {
+        "Name": "小熊礼品机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕269号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4336"
+      },
+      {
+        "Name": "魅力一族",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕788号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4521"
+      },
+      {
+        "Name": "迷你七彩4人（黑、粉）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕277号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4473"
+      },
+      {
+        "Name": "动感机车",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕274号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=4344"
+      },
+      {
+        "Name": "一战成名Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕5号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=3501"
+      },
+      {
+        "Name": "大眼怪",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕4号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=3495"
+      },
+      {
+        "Name": "礼品达人",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕7号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=3503"
+      },
+      {
+        "Name": "奇趣宝贝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游艺审〔2021〕6号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=3502"
+      },
+      {
+        "Name": "风暴枪神Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2020〕284号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=3218"
+      },
+      {
+        "Name": "小神锤Ⅱ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2020〕283号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=3217"
+      },
+      {
+        "Name": "冰山之战",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2020〕135号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2927"
+      },
+      {
+        "Name": "大黄蜂",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2020〕137号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2933"
+      },
+      {
+        "Name": "地鼠矿工",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2020〕136号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2931"
+      },
+      {
+        "Name": "海盗夺宝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2020〕28号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2536"
+      },
+      {
+        "Name": "疯狂坦克",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2020〕27号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2535"
+      },
+      {
+        "Name": "超级坦克",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2020〕26号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2534"
+      },
+      {
+        "Name": "糖果精灵",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A366号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2207"
+      },
+      {
+        "Name": "疯狂宝贝2",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A369号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2212"
+      },
+      {
+        "Name": "七彩巴士",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A365号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2201"
+      },
+      {
+        "Name": "一战成名",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A368号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2211"
+      },
+      {
+        "Name": "扭蛋宝贝（粉色、绿色）",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A367号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=2210"
+      },
+      {
+        "Name": "机车宝贝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A180号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1974"
+      },
+      {
+        "Name": "疯狂宝贝",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A177号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1890"
+      },
+      {
+        "Name": "皇家战机",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A179号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1973"
+      },
+      {
+        "Name": "魔力宝贝Ⅰ",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2019〕A178号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1972"
+      },
+      {
+        "Name": "七彩乐园",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A858号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1201"
+      },
+      {
+        "Name": "赛车联盟",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A861号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1205"
+      },
+      {
+        "Name": "战机英雄",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A865号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1209"
+      },
+      {
+        "Name": "狂欢派对",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A867号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1351"
+      },
+      {
+        "Name": "王牌赛艇",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A860号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1204"
+      },
+      {
+        "Name": "劲跑团",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A864号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1208"
+      },
+      {
+        "Name": "小枪手",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A859号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1203"
+      },
+      {
+        "Name": "跳跳球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A863号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1207"
+      },
+      {
+        "Name": "3D曲棍球",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A866号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1349"
+      },
+      {
+        "Name": "粉果果",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A857号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1197"
+      },
+      {
+        "Name": "小天才",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审〔2018〕A862号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=1206"
+      },
+      {
+        "Name": "王牌对决",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审【2018】A116号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=125"
+      },
+      {
+        "Name": "开心消消乐",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审【2018】A114号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=147"
+      },
+      {
+        "Name": "开心屋",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审【2018】A112号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=168"
+      },
+      {
+        "Name": "风暴枪神",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审【2018】A115号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=171"
+      },
+      {
+        "Name": "踩踩农场",
+        "DeviceCategory": "游艺机",
+        "ApprovalNumber": "粤游审【2018】A113号",
+        "SupervisionPhone": "12318",
+        "Link": "https://sh.gegia.cn/#/scanningView?id=166"
+      }
+    ]
+  }
+]

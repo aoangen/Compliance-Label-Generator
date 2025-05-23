@@ -1,0 +1,50 @@
+/* 
+ * 无滚动条修复 - 确保预览标签完全显示，无滚动条
+ */
+
+/* 预览区域整体设置 */
+.preview-section {
+    overflow: visible !important; /* 确保内容完全可见，不出现滚动条 */
+}
+
+/* 标签包装器和容器的共同设置 */
+.label-wrapper,
+.label-container {
+    overflow: visible !important; /* 不裁剪内容且不显示滚动条 */
+    height: auto !important; /* 自动高度适应内容 */
+    width: 100% !important; /* 确保宽度占满 */
+    position: static !important; /* 使用标准定位，避免滚动问题 */
+}
+
+/* 电子标签设置 */
+#electronic-label {
+    position: static !important; /* 标准定位流 */
+    overflow: visible !important; /* 内容完全显示 */
+    transform-origin: center center !important; /* 从中心点缩放 */
+}
+
+/* 确保移动端预览完整 - 特定宽度处理 */
+@media (max-width: 900px) {
+    body, html {
+        overflow-x: hidden; /* 禁止页面的水平滚动 */
+    }
+    
+    .preview-section {
+        padding: 0 !important; /* 移除内边距，最大化显示空间 */
+        margin-top: 10px; /* 保持一些上边距 */
+    }
+    
+    .label-wrapper {
+        margin: 0 auto !important; /* 水平居中但无垂直边距 */
+        padding: 0 !important; /* 无内边距 */
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    /* 调整标签容器，确保不出现滚动条 */
+    .label-container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
