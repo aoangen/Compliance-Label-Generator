@@ -256,7 +256,7 @@ button:hover {
 
 /* --- More Information Section Styles --- */
 .more-info-section {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 20px; /* Applied padding to all sides */
     background-color: #fff; /* Added for card style */
     border-radius: 8px; /* Added for card style */
@@ -344,4 +344,58 @@ button:hover {
 
 .disclaimer-section p {
     margin-bottom: 5px; /*段落间距*/
+}
+
+/* 广告区域样式 */
+.ad-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-link {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    max-width: 100%;
+}
+
+.ad-image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ad-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+}
+
+.ad-image:hover {
+    opacity: 0.9;
+}
+
+.ad-label {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ccc;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 2px;
+    opacity: 0.7;
 }

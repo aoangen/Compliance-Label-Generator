@@ -7,7 +7,7 @@
     /*
     #electronic-label {
         transform: scale(0.5) !important;
-        margin: 0 auto !important; /* 居中显示，无上下边距 */
+        margin: 0 auto !important;
     }
     */
     .label-wrapper, .label-container {
@@ -21,7 +21,7 @@
     /*
     #electronic-label {
         transform: scale(0.45) !important;
-        margin: 0 auto !important; /* 居中显示，无上下边距 */
+        margin: 0 auto !important;
     }
     */
 }
@@ -32,7 +32,7 @@
     /*
     #electronic-label {
         transform: scale(0.4) !important;
-        margin: 0 auto !important; /* 居中显示，无上下边距 */
+        margin: 0 auto !important;
     }
     */
 }
@@ -43,7 +43,7 @@
     /*
     #electronic-label {
         transform: scale(0.6) !important;
-        margin-bottom: 30px !important; /* 减少边距 */
+        margin-bottom: 30px !important;
     }
     */
 }
@@ -79,6 +79,43 @@
     .mobile-view-hint {
         /* This style can remain if the hint itself needs adjustment in landscape */
         transform: translateY(-5px);
+    }
+}
+
+/* 广告区域移动端优化 */
+@media (max-width: 900px) {
+    .ad-section {
+        margin-top: 15px;
+        margin-bottom: 0;
+        padding: 15px;
+    }
+    
+    .ad-image {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .ad-label {
+        font-size: 9px;
+        padding: 1px 4px;
+        bottom: 6px;
+        left: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ad-section {
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+}
+
+/* 桌面端图片居中优化 */
+@media (min-width: 901px) {
+    .ad-image-container {
+        max-width: 800px;
+        margin: 0 auto;
     }
 }
 /* --- END OF FILE mobile-fixes.css (修改后) --- */
