@@ -116,12 +116,92 @@
         </a>
     </div>
 
+    <!-- 不蒜子计数服务 - 隐藏显示但在控制台输出 -->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv" style="display: none !important; visibility: hidden !important;">
+        本站总访问量<span id="busuanzi_value_site_pv"></span>次
+    </span>
+    <span id="busuanzi_container_site_uv" style="display: none !important; visibility: hidden !important;">
+        本站访客数<span id="busuanzi_value_site_uv"></span>人次
+    </span>
+
     <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
     <script src="script.js"></script>
     <script src="mobile-scale.js"></script>
+
+    <!-- 额外的不蒜子隐藏脚本 -->
+    <script>
+        // 强制隐藏不蒜子元素的函数
+        function forceBusuanziHidden() {
+            const elements = [
+                'busuanzi_container_site_pv',
+                'busuanzi_container_site_uv', 
+                'busuanzi_value_site_pv',
+                'busuanzi_value_site_uv'
+            ];
+            
+            elements.forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.style.setProperty('display', 'none', 'important');
+                    element.style.setProperty('visibility', 'hidden', 'important');
+                    element.style.setProperty('opacity', '0', 'important');
+                    element.style.setProperty('position', 'absolute', 'important');
+                    element.style.setProperty('left', '-9999px', 'important');
+                    element.style.setProperty('top', '-9999px', 'important');
+                    element.style.setProperty('width', '0', 'important');
+                    element.style.setProperty('height', '0', 'important');
+                    element.style.setProperty('overflow', 'hidden', 'important');
+                }
+            });
+        }
+
+        // 立即执行一次
+        forceBusuanziHidden();
+        
+        // DOM加载完成后再执行一次
+        document.addEventListener('DOMContentLoaded', forceBusuanziHidden);
+        
+        // 页面完全加载后再执行一次（以防不蒜子脚本覆盖了样式）
+        window.addEventListener('load', function() {
+            forceBusuanziHidden();
+            // 延迟执行，确保不蒜子脚本加载完成后也隐藏
+            setTimeout(forceBusuanziHidden, 1500);
+            setTimeout(forceBusuanziHidden, 3000);
+        });
+        
+        // 使用 MutationObserver 监听DOM变化，确保新添加的元素也被隐藏
+        if (typeof MutationObserver !== 'undefined') {
+            const observer = new MutationObserver(function(mutations) {
+                let shouldHide = false;
+                mutations.forEach(function(mutation) {
+                    if (mutation.type === 'childList' || mutation.type === 'attributes') {
+                        mutation.addedNodes.forEach(function(node) {
+                            if (node.nodeType === 1) { // Element node
+                                const id = node.id;
+                                if (id && (id.includes('busuanzi') || node.querySelector('[id*="busuanzi"]'))) {
+                                    shouldHide = true;
+                                }
+                            }
+                        });
+                    }
+                });
+                if (shouldHide) {
+                    setTimeout(forceBusuanziHidden, 10);
+                }
+            });
+            
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true,
+                attributes: true,
+                attributeFilter: ['style', 'class']
+            });
+        }
+    </script>
 
     <div class="more-info-section">
         <h2>使用说明</h2>

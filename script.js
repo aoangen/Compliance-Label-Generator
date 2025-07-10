@@ -783,3 +783,27 @@ function selectDeviceFromSearch(hit) {
     // 重置 currentManufacturerData，因为它与预设相关
     currentManufacturerData = null; 
 }
+
+// === 不蒜子访问计数控制台输出功能 ===
+function checkBusuanziCounter() {
+    const pvElement = document.getElementById('busuanzi_value_site_pv');
+    const uvElement = document.getElementById('busuanzi_value_site_uv');
+    
+    if (pvElement && pvElement.textContent && uvElement && uvElement.textContent) {
+        console.log('📊 网站访问统计信息');
+        console.log('='.repeat(30));
+        console.log('🔍 总访问量（PV）:', pvElement.textContent.trim() + ' 次');
+        console.log('👥 访客数（UV）:', uvElement.textContent.trim() + ' 人次');
+        console.log('='.repeat(30));
+        console.log('💡 提示：数据由不蒜子统计服务提供');
+    } else {
+        // 如果还没加载完成，100ms后再次检查
+        setTimeout(checkBusuanziCounter, 100);
+    }
+}
+
+// 页面加载完成后开始检查不蒜子计数
+window.addEventListener('load', function() {
+    // 延迟一下确保不蒜子脚本有时间执行
+    setTimeout(checkBusuanziCounter, 1000);
+});
